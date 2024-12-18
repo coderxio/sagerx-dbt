@@ -1,21 +1,13 @@
-.env
-notebooks
-
 # Python files
 __pycache__
 venv
-
-# Airflow Volumes
-data
-logs
-extracts
-plugins
+.env
 
 # dbt
 .user.yml
+target/
+dbt_packages/
+logs/
 
 # Desktop Services Store
 .DS_Store
-
-# GCP
-gcp.json
